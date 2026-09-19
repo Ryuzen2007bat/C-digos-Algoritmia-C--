@@ -1,6 +1,6 @@
-/*Desarrolla un programa en C++ que determine el mayor y el menor de un conjunto de números. 
-El programa debe permitir al usuario ingresar números hasta que ingrese el valor 0. 
-Además, debe descartar cualquier número que no sea un entero positivo.
+/*DiseÃ±e un programa en C++ que permita leer un nÃºmero entero de mÃ¡s de 3 cifras y muestre sus dÃ­gitos ordenados de mayor a menor
+(de 9 a 0), repitiendo cada dÃ­gito tantas veces como aparezca en el nÃºmero original.
+Nota: No puede emplear arreglos, ni funciones predefinidas, ni funciones propias.
 */
 #include<iostream>
 using namespace std;

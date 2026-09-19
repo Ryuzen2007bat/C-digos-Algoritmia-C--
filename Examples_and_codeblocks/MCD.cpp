@@ -11,10 +11,5 @@ int main(){
 		else y=y-x; 
 		cout<<"Maximo comun divisor es "<<x<<endl;
 	}
-	
-	
-	
-	
-	
 	return 0; 
 }

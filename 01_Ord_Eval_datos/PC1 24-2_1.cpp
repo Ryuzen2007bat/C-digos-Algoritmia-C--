@@ -11,9 +11,5 @@ cout<<"Introduzca las horas semanales de trabajo: ";cin>>n;
 	else pago=400 + 300 + (extra-15)*30;
 	}
 	cout<<"\nEl sueldo semanal correspondiente sera de: "<<pago; 
-	
-	
-	
-	
 	return 0;
 }

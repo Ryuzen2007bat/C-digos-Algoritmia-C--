@@ -1,3 +1,6 @@
+/*Diseñe un programa en C++ que permita leer el monto de un pago (entero, múltiplo de 10) y determine la menor cantidad de billetes
+de S/100, S/50, S/20 y S/10 necesarios para cubrir dicho monto. Si el monto no es múltiplo de 10, debe mostrar un mensaje de error.
+Nota: No puede emplear arreglos, ni funciones predefinidas, ni funciones propias.*/
 #include<iostream>
 using namespace std;
 int main(){

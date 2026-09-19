@@ -1,3 +1,10 @@
+/*El sueldo semanal de un trabajador se calcula considerando un monto fijo según su categoría más un
+monto variable según las horas trabajadas, a razón de S/. 10 por hora. Si el trabajador excede las 40
+horas de trabajo, se le paga el doble por cada hora extra (superior a 40), pero si excede las 55 horas se
+le paga el triple por cada hora extra (superior a 55). Considerar que un trabajador solo puede cobrar un
+máximo de 20 horas extras (si tiene mas, solo se le pagan 20 horas extras). Desarrolle el algoritmo para
+calcular lo que se le debe pagar al trabajador.
+NOTA: No se pueden usar arreglos*/
 #include<iostream>
 using namespace std; 
 int main(){

@@ -1,3 +1,6 @@
+/*Diseñar un programa que permita leer un conjunto de N datos reales y luego determine el segundo
+mayor de los negativos y cuantas veces aparece.
+NOTA:No se pueden usar arreglos.*/
 #include<iostream>
 using namespace std; 
 int main(){

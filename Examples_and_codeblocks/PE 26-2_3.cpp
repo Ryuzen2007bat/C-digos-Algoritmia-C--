@@ -1,3 +1,8 @@
+/*Diseñe un programa en C++, que permita leer un número entero positivo en el sistema de base diez. Luego el programa debe indicar
+en qué bases (del 3 al 9) dicho número es PAR.
+	Nota:
+Un número entero N, escrito en cualquier base b, es Par si existe un entero k tal que N = 2k.
+No puede emplear arreglos, ni funciones predefinidas, ni funciones propias.*/
 #include<iostream>
 using namespace std;
 int main(){

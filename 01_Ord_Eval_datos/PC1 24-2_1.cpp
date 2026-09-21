@@ -8,15 +8,21 @@ NOTA: No se pueden usar arreglos*/
 #include<iostream>
 using namespace std; 
 int main(){
-int n, extra, pago;
+int n, extra, pago, cat, fijo;
+cout<<"Ingrese su categoria: ";cin>>cat;
 cout<<"Introduzca las horas semanales de trabajo: ";cin>>n;
+if(cat==1){fijo=200;
+}else if(cat==2){fijo=280;
+}else if(cat==3){fijo=400;
+}else if(cat==4){fijo=500;
+}
 	if(n<=40){
-		pago=n*10;
+	 pago=n*10;
 	}else{extra=n-40; 
 	if(extra>20)extra=20;
 	if(extra<=15)pago=400+extra*20;
 	else pago=400 + 300 + (extra-15)*30;
 	}
-	cout<<"\nEl sueldo semanal correspondiente sera de: "<<pago; 
+	cout<<"\nEl sueldo semanal correspondiente sera de: "<<pago+fijo; 
 	return 0;
 }

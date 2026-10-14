@@ -17,12 +17,13 @@ int main(){
 	int i=0;
 	while(i<cont){
 		if(arreglo[i]==x){
-		cont--;for(int j=i; j<cont; j++){
-			arreglo[j]=arreglo[j+1];
-			}
-				}else {i++;
-				}
-	}
+		cont--;
+			for(int j=i; j<cont; j++){
+				arreglo[j]=arreglo[j+1];
+					}
+						}else {i++;
+							}
+								}
 	cout<<"\Quedaron "<<cont<<" elementos:";
 	cout<<"\nResultado despues de la eliminacion:\n";
 	for(int i=0; i<cont; i++){
